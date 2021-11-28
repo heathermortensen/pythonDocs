@@ -21,7 +21,7 @@ Typora is a simple and configurable document editor that provides excellent [Mar
 [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/index.html) is an data science environment that contains Jupyter Notebooks (beta), Jupyter Lab (final release) for documentation, conda environment, R Studio, Sypder IDE (data display is better and cleaner, JSON, dataFrames) and Visual Studio Code IDE.
 
 ```
-![AnacondaNavigator](https://github.com/[username]/[reponame]/blob/[branch]/anacondaNavigatorToolList.png?raw=true)
+![AnacondaNavigator](https://github.com/heathermortensen/pythonDocs/blob/develop/images/anacondaNavigatorToolList.png)
 ```
 
 [iPython](https://ipython.org/)
