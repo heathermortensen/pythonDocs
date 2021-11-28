@@ -2,36 +2,53 @@
 
 # Python Notes
 
-```
-# Table of contents
-1. [Introduction](#introduction)
-2. [Some paragraph](#paragraph1)
-    1. [Sub paragraph](#subparagraph1)
-3. [Another paragraph](#paragraph2)
 
-## This is the introduction <a name="introduction"></a>
-Some introduction text, formatted in heading 2 style
-```
 
 ## Table of Contents 
 
 1. [Tools & Configuration](#tools&config)
 
-​	Connecting to a database
+   ​	1a. [Pandas versus NumPy](#pandasVSnumpy)
 
-​	Testing frameworks
+   ​	1b. [Spyder versus VS Code](#spyderVSVSCode)
 
-To Do List
+   ​	1c. [Connecting to a database](#db)
 
-Books
+   ​	1d. [Testing frameworks](#testing frameworks)
 
-​	Testing Books
+   ​			1di. [UnitTest](#UnitTest)
 
-​	Python Books
+   ​			1dii. [PyTest](#PyTest)
 
-Online Resources
+   ​			1diii. [Selenium](#Selenium)
 
-Questions
+2. [To Do List](#todo)
+
+3. [Books](#books)
+
+   ​	3a. Testing Books
+
+   ​	3b. Python Books
+
+4. [Online Resources](#online)
+
+   ​	4a. [Python & Testing](#pythonTesting)
+
+   ​	4b. [Unit Testing](#unitTesting)
+
+   ​	4c.  Design Patterns for Accessing Hardware
+
+   ​	4d.
+
+5. [Questions](#questions)
+
+   ​	5a. Setup methods & Fixtures?
+
+   ​	5b. Non-constant static fields?
+
+   ​	5c. Data Frames?
+
+   ​	5d. What version control?
 
 
 
@@ -75,11 +92,13 @@ NumPy is a library for Python that adds support for large, multi-dimensional arr
 
 
 
-[Pandas versus NumPy](https://ssiddique.info/pandas-vs-numpy-differences.html)
+#### Pandas versus NumPy <a name="PandasVSnumpy"></a>
 
-Spyder versus VS Code 
+* [Pandas versus NumPy](https://ssiddique.info/pandas-vs-numpy-differences.html)
 
-[Opinion #0](https://ritza.co/articles/pycharm-vs-spyder-vs-jupyter-vs-visual-studio-vs-anaconda-vs-intellij/) - [Opion #1](https://www.slant.co/versus/1246/5982/~spyder_vs_visual-studio-code) -  [Opinion #2](https://www.trustradius.com/compare-products/microsoft-visual-studio-code-vs-spyder)  - 
+#### Spyder versus VS Code <a name="spyderVSVSCde"></a>
+
+* [Opinion #0](https://ritza.co/articles/pycharm-vs-spyder-vs-jupyter-vs-visual-studio-vs-anaconda-vs-intellij/) - [Opion #1](https://www.slant.co/versus/1246/5982/~spyder_vs_visual-studio-code) -  [Opinion #2](https://www.trustradius.com/compare-products/microsoft-visual-studio-code-vs-spyder)  - 
 
 Spyder is more geared towards tracing data and might be preferred. Its well suited to JSONs and data frames. 
 
@@ -91,13 +110,11 @@ PyCharm and Visual Studio Code (VS Code) are both very popular and featureful ID
 
 
 
-
-
-#### Connecting to a database
+#### Connecting to a database <a name="db"></a>
 
 
 
-#### Testing frameworks
+#### Testing frameworks <a name="testing frameworks"></a>
 
 Testing Frameworks include: 1.) unitTest; 2.) Nose (no longer supported); 3.) pytest; and, 4.) Avacado. Selenium is a common tool for test automation.
 
@@ -107,19 +124,25 @@ PyTest and UnitTest are the most popular frameworks. UnitTest is built into the 
 
 
 
-File paths/file names - min 7, G video 1Unit Testing [Video](https://www.youtube.com/watch?v=6tNS--WetLI)
+File paths/file names - min 7, G video 1 
 
 
 
-[UnitTest](https://docs.python.org/3/library/unittest.html)
+##### UnitTest <a name="UnitTest"></a>
+
+* [UnitTest](https://docs.python.org/3/library/unittest.html)
 
 * [Python Tutorial: Unit Testing Your Code with the unittest Module video (39 min)](https://www.youtube.com/watch?v=6tNS--WetLI)
+
 * UnitTest, like pyTest, does [test discovery](https://www.tutorialspoint.com/unittest_framework/unittest_framework_test_discovery.htm).
+
 * Logging unit tests: [How to: Output debug information during unit tests](https://www.kite.com/python/examples/4918/unittest-output-debug-information-during-unit-tests), [Logging Docs](https://docs.python.org/3/library/logging.html), [unitTest + html report video (1 hour)](https://www.youtube.com/watch?v=0kLoVGLTISg)
 
+  
 
+##### PyTest <a name="PyTest"></a>
 
-[PyTest](https://docs.pytest.org/en/6.2.x/)
+* [PyTest](https://docs.pytest.org/en/6.2.x/)
 
 * Installation instructions [here](https://docs.pytest.org/en/6.2.x/getting-started.html). API reference [here](https://docs.pytest.org/en/6.2.x/reference.html). Tips [here](https://towardsdatascience.com/4-lessor-known-yet-awesome-tips-for-pytest-2117d8a62d9c). Pytest has never been associated with a security vulnerability, however, PyTest Security vulnerabilities are reportable [here](https://tidelift.com/security).
 
@@ -141,6 +164,8 @@ File paths/file names - min 7, G video 1Unit Testing [Video](https://www.youtube
 
 
 
+##### Selenium <a name="Selenium"></a>
+
 [PyTest & Selenium](https://www.lambdatest.com/blog/selenium-python-pytest-testing-tutorial/#:~:text=Selenium%20testing%20with%20Python%20%26%20pytest%20is%20done%20to%20write%20scalable,version%20of%20pytest%20is%205.4.)
 
 * [Selenium Python Tutorial: Getting Started With Pytest](https://dzone.com/articles/selenium-python-tutorial-getting-started-with-pyte)
@@ -149,7 +174,7 @@ File paths/file names - min 7, G video 1Unit Testing [Video](https://www.youtube
 
 
 
-### To Do List
+### To Do List <a name="todo"></a>
 
 [ ] Quick write up of potential tools
 
@@ -173,7 +198,7 @@ File paths/file names - min 7, G video 1Unit Testing [Video](https://www.youtube
 
 
 
-### Books
+### Books <a name="books"></a>
 
 #### Testing Books
 
@@ -201,19 +226,25 @@ The Firmware Handbook
 
 
 
-### Online Resources
+### Online Resources <a name="online"></a>
 
-[**Using Python to Test**](https://www.youtube.com/watch?v=eQQ2uxMedGw) - Sep 9, 2015 – 26 min video
+#### Python & Testing <a name="pythonTesting"></a>
+
+* [**Using Python to Test**](https://www.youtube.com/watch?v=eQQ2uxMedGw) - Sep 9, 2015 – 26 min video
 
 Tools & methods to establish a python test framework for hardware models. Broad overview.
 
 This man recommends using [decorator pattern](https://www.youtube.com/watch?v=GCraGHx6gso) as a base for swapping hardware in and out of a system. I'm not sure that I'm in love with this. I'm looking at [Abstract Factory Pattern](https://www.youtube.com/watch?v=v-GiuMmsXj4) - a form of [Factory Pattern](https://www.youtube.com/watch?v=EcFVTgRHJLM). There are 3 versions of this pattern: 1.) ~~Simple factory~~; 2.) Abstract Factory; and 3.) Factory method.
 
-[**Andrew Knight | Testing is Fun in Python!**](https://www.youtube.com/watch?v=Sb2tz9Hlbp8) - Oct 4, 2016 - 40 min video
+* [**Andrew Knight | Testing is Fun in Python!**](https://www.youtube.com/watch?v=Sb2tz9Hlbp8) - Oct 4, 2016 - 40 min video
 
 Good testing principals & 5 Testing frameworks: 1.) unitTest; 2.) doctests ; 3.) Nose ; 4.) pytest; 5.) Avacado.
 
-[**Effective Unit Testing**](https://www.youtube.com/watch?v=fr1E9aVnBxw) - Apr 11, 2017 - 48 min video
+#### Unit Testing <a name="unitTesting"></a>
+
+* Unit Testing [Video](https://www.youtube.com/watch?v=6tNS--WetLI)
+
+* [**Effective Unit Testing**](https://www.youtube.com/watch?v=fr1E9aVnBxw) - Apr 11, 2017 - 48 min video
 
 Fundamental Principal of Unit Testing (min 5), characterization tests. Test should only be coupled to the API, not the implementation. Tests written first should all fail before you write your implementation. 1 test has 1 and only 1 assertion. Unit tests are totally independent (Tests can run in parallel in multiple threads - don't have any order to how the tests can run). Don't depend on semaphores or synchronization or special data structures. Don't use non-constant static fields in tests. If model code under test has global state - beware. Tests DO NOT share instance data. Setup determines if you need a new test class. Run slower tests last.
 
@@ -255,11 +286,11 @@ https://hackaday.com/2018/01/12/software-design-patterns-for-real-hardware/
 
 
 
-### Questions
+### Questions <a name="questions"></a>
 
 [Setup methods & Fixtures in pyTest](https://codedec.com/tutorials/pytest-fixture-and-setup-teardown-methods/)
 
-* [Automated testing with pytest and fixtures Video (27 min) ][(https://www.youtube.com/watch?v=8mp_1Jt-xHQ)]
+[Automated testing with pytest and fixtures Video (27 min) ][(https://www.youtube.com/watch?v=8mp_1Jt-xHQ)]
 
 [Non-constant static fields](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca2211) ( See min 19 of Effective Unit Testing video)
 
@@ -271,7 +302,7 @@ Data frames are matrices or tables. DFs are a data type available from inside th
 
 <img src="images/dataframeExample.png">
 
-<figure><img src="dataframeExample.png"><figcaption>A data frame shown inside spyder</figcaption></figure>
+<figcaption>A data frame shown inside spyder</figcaption>
 
 
 
