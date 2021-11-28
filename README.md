@@ -2,11 +2,20 @@
 
 # Python Notes
 
-This is [an example][id] reference-style link. Then, anywhere in the document, you define your link label on a line by itself like this: [id]: http://example.com/  "Optional Title Here"
+```
+# Table of contents
+1. [Introduction](#introduction)
+2. [Some paragraph](#paragraph1)
+    1. [Sub paragraph](#subparagraph1)
+3. [Another paragraph](#paragraph2)
 
-## Contents 
+## This is the introduction <a name="introduction"></a>
+Some introduction text, formatted in heading 2 style
+```
 
-Tools & Configuration
+## Table of Contents 
+
+1. [Tools & Configuration](#tools&config)
 
 ​	Connecting to a database
 
@@ -26,7 +35,7 @@ Questions
 
 
 
-### Tools & Configuration
+### 1. Tools & Configuration <a name="tools&config"></a>
 
 [PEP 8](https://www.python.org/dev/peps/pep-0008/) 
 
