@@ -49,8 +49,12 @@ IMAGE HERE
 ```
 
 ```
-![Anaconda Navigator](images/anacondaNavigatorToolList.png)
+![Anaconda Navigator](/images/anacondaNavigatorToolList.png)
 ```
+
+[[(/images/anacondaNavigatorToolList.png)]
+
+<img src="images/anacondaNavigatorToolList.png">
 
 https://github.com/heathermortensen/pythonDocs/blob/develop/images/anacondaNavigatorToolList.png
 
