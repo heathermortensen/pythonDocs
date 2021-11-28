@@ -14,7 +14,7 @@
 
    ​	1c. [Connecting to a database](#db)
 
-   ​	1d. [Testing frameworks](#testing frameworks)
+   ​	1d. [Testing frameworks](#testingFrameworks)
 
    ​			1di. [UnitTest](#UnitTest)
 
@@ -22,13 +22,19 @@
 
    ​			1diii. [Selenium](#Selenium)
 
+   
+
 2. [To Do List](#todo)
+
+   
 
 3. [Books](#books)
 
    ​	3a. Testing Books
 
    ​	3b. Python Books
+
+   
 
 4. [Online Resources](#online)
 
@@ -40,6 +46,8 @@
 
    ​	4d.
 
+   
+
 5. [Questions](#questions)
 
    ​	5a. Setup methods & Fixtures?
@@ -49,6 +57,8 @@
    ​	5c. Data Frames?
 
    ​	5d. What version control?
+
+
 
 
 
@@ -92,9 +102,15 @@ NumPy is a library for Python that adds support for large, multi-dimensional arr
 
 
 
+
+
 #### Pandas versus NumPy <a name="PandasVSnumpy"></a>
 
 * [Pandas versus NumPy](https://ssiddique.info/pandas-vs-numpy-differences.html)
+
+
+
+
 
 #### Spyder versus VS Code <a name="spyderVSVSCde"></a>
 
@@ -114,7 +130,7 @@ PyCharm and Visual Studio Code (VS Code) are both very popular and featureful ID
 
 
 
-#### Testing frameworks <a name="testing frameworks"></a>
+#### Testing frameworks <a name="testingFrameworks"></a>
 
 Testing Frameworks include: 1.) unitTest; 2.) Nose (no longer supported); 3.) pytest; and, 4.) Avacado. Selenium is a common tool for test automation.
 
@@ -176,7 +192,7 @@ File paths/file names - min 7, G video 1
 
 ### To Do List <a name="todo"></a>
 
-[ ] Quick write up of potential tools
+[x] Quick write up of potential tools
 
 [ ] Install software tools
 
@@ -184,15 +200,15 @@ File paths/file names - min 7, G video 1
 
 [ ] Testing techniques - what quantitative measures can be collected?
 
-[ ] Methods for automated testing
+[ ] Methods for automated testing/scripting
 
-[ ] notes from testing class - located: C:\Users\Bob Ross\Desktop\St Thomas Classes\SEIS_627_03_Asgn_2_0005-Heather\DOCs
+[ ] notes from testing class- located vol 1 - located: C:\Users\Bob Ross\Desktop\St Thomas Classes\SEIS_627_03_Asgn_2_0005-Heather\DOCs. find: vol 2
 
-[ ] call half price books -  (763) 784-1500
+[ ] call half price books -  (763) 784-1500. Not in yet.
 
-[ ] call recruiter
+[ ] call recruiter Monday to verify adequate paperwork was received. 
 
-[ ] push notes to github
+[x] push notes to github
 
 
 
@@ -202,9 +218,9 @@ File paths/file names - min 7, G video 1
 
 #### Testing Books
 
-**Testing Computer Software (2nd edition)** by Cem Kaner, Jack Falk, Hung Q. Nguyen. ISBN-13:978-0471358466. [Link to amazon](https://www.amazon.com/Testing-Computer-Software-2nd-Kaner/dp/0471358460)
+* **Testing Computer Software (2nd edition)** by Cem Kaner, Jack Falk, Hung Q. Nguyen. ISBN-13:978-0471358466. [Link to amazon](https://www.amazon.com/Testing-Computer-Software-2nd-Kaner/dp/0471358460)
 
-**Software Quality Assurance and Evaluation First Printing Edition** by James H. Dobbins. 1990. ISBN-13: 978-0873890595. [Link to amazon](https://www.amazon.com/Software-Quality-Assurance-Evaluation-Dobbins/dp/0873890590)
+* **Software Quality Assurance and Evaluation First Printing Edition** by James H. Dobbins. 1990. ISBN-13: 978-0873890595. [Link to amazon](https://www.amazon.com/Software-Quality-Assurance-Evaluation-Dobbins/dp/0873890590)
 
 #### Python Books
 
