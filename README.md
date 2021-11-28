@@ -1,10 +1,32 @@
 ##  
 
-# Python
+# Python Notes
+
+This is [an example][id] reference-style link. Then, anywhere in the document, you define your link label on a line by itself like this: [id]: http://example.com/  "Optional Title Here"
+
+## Contents 
+
+Tools & Configuration
+
+​	Connecting to a database
+
+​	Testing frameworks
+
+To Do List
+
+Books
+
+​	Testing Books
+
+​	Python Books
+
+Online Resources
+
+Questions
 
 
 
-## Tools & Configuration
+### Tools & Configuration
 
 [PEP 8](https://www.python.org/dev/peps/pep-0008/) 
 
@@ -20,6 +42,8 @@ Typora is a simple and configurable document editor that provides excellent [Mar
 
 [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/index.html) is an data science environment that contains Jupyter Notebooks (beta), Jupyter Lab (final release) for documentation, conda environment, R Studio, Sypder IDE (data display is better and cleaner, JSON, dataFrames) and Visual Studio Code IDE.
 
+IMAGE HERE
+
 ```
 ![AnacondaNavigator](https://github.com/heathermortensen/pythonDocs/blob/develop/images/anacondaNavigatorToolList.png)
 ```
@@ -27,6 +51,8 @@ Typora is a simple and configurable document editor that provides excellent [Mar
 ```
 ![Anaconda Navigator](images/anacondaNavigatorToolList.png)
 ```
+
+https://github.com/heathermortensen/pythonDocs/blob/develop/images/anacondaNavigatorToolList.png
 
 [iPython](https://ipython.org/)
 
@@ -44,7 +70,7 @@ Pandas is a fast, powerful, flexible open source data analysis and manipulation 
 
 NumPy is a library for Python that adds support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays. Pandas is a high-level data manipulation tool that is built on the NumPy package. Think of this like the PVC pipe that connects all the different libraries in python? NumPy arrays are very fast compared with native datatypes in python. 
 
-IMAGE
+IMAGE https://github.com/heathermortensen/pythonDocs/blob/develop/images/numPy.png
 
 [Pandas versus NumPy](https://ssiddique.info/pandas-vs-numpy-differences.html)
 
@@ -54,7 +80,7 @@ Spyder versus VS Code
 
 Spyder is more geared towards tracing data and might be preferred. Its well suited to JSONs and data frames. 
 
-IMAGE
+IMAGE https://github.com/heathermortensen/pythonDocs/blob/develop/images/SpyderDataTracing.png
 
 PyCharm and Visual Studio Code (VS Code) are both very popular and featureful IDEs. However, PyCharm is tailored for Python and you'll have to install other IDEs for other languages. Visual Studio is more modular, it only needs to know what type of project you are working in and it will automatically enable the required plugins. It’s worth noting that PyCharm is very resource-intensive and performs much slower than Visual Studio. Consider PyCharm if you'll be working mainly with Python. Consider Visual Studio if you need to work with multiple languages and want the flexibility to customize your IDE.
 
@@ -118,7 +144,7 @@ File paths/file names - min 7, G video 1Unit Testing [Video](https://www.youtube
 
 
 
-## To Do List
+### To Do List
 
 [ ] Quick write up of potential tools
 
@@ -142,17 +168,15 @@ File paths/file names - min 7, G video 1Unit Testing [Video](https://www.youtube
 
 
 
-## Books
+### Books
 
-### Testing Books
+#### Testing Books
 
 **Testing Computer Software (2nd edition)** by Cem Kaner, Jack Falk, Hung Q. Nguyen. ISBN-13:978-0471358466. [Link to amazon](https://www.amazon.com/Testing-Computer-Software-2nd-Kaner/dp/0471358460)
 
 **Software Quality Assurance and Evaluation First Printing Edition** by James H. Dobbins. 1990. ISBN-13: 978-0873890595. [Link to amazon](https://www.amazon.com/Software-Quality-Assurance-Evaluation-Dobbins/dp/0873890590)
 
-
-
-### Python Books
+#### Python Books
 
 Automate the boring stuff
 
@@ -172,7 +196,7 @@ The Firmware Handbook
 
 
 
-## Online Resources
+### Online Resources
 
 [**Using Python to Test**](https://www.youtube.com/watch?v=eQQ2uxMedGw) - Sep 9, 2015 – 26 min video
 
@@ -226,7 +250,7 @@ https://hackaday.com/2018/01/12/software-design-patterns-for-real-hardware/
 
 
 
-#### Questions
+### Questions
 
 [Setup methods & Fixtures in pyTest](https://codedec.com/tutorials/pytest-fixture-and-setup-teardown-methods/)
 
@@ -238,7 +262,7 @@ https://hackaday.com/2018/01/12/software-design-patterns-for-real-hardware/
 
 Data frames are matrices or tables. DFs are a data type available from inside the pandas package. These were created by [Wes McKinsey](https://www.youtube.com/watch?v=_T8LGqJtuGc) and use their own goofy syntax. Knowing python will not help you with DFs. Useful functions include "slicing" (see G video 1 - min 12) -  `print stringy([:2])` will print all elements from 0 to 1. When using data frames, we would instead write `print(df.iloc[:2])`to print the index locations inside the data frame. [DataFrames: The Good, Bad, and Ugly (20 min)](https://www.youtube.com/watch?v=stlxbC7uIzM)
 
-IMAGE dataFrameExample in Spyder
+IMAGE dataFrameExample in Spyder https://github.com/heathermortensen/pythonDocs/blob/develop/images/dataframeExample.png
 
 What version control are we using?
 
