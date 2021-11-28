@@ -42,21 +42,9 @@ Typora is a simple and configurable document editor that provides excellent [Mar
 
 [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/index.html) is an data science environment that contains Jupyter Notebooks (beta), Jupyter Lab (final release) for documentation, conda environment, R Studio, Sypder IDE (data display is better and cleaner, JSON, dataFrames) and Visual Studio Code IDE.
 
-IMAGE HERE
-
-```
-![AnacondaNavigator](https://github.com/heathermortensen/pythonDocs/blob/develop/images/anacondaNavigatorToolList.png)
-```
-
-```
-![Anaconda Navigator](/images/anacondaNavigatorToolList.png)
-```
-
-[[(/images/anacondaNavigatorToolList.png)]
-
 <img src="images/anacondaNavigatorToolList.png">
 
-https://github.com/heathermortensen/pythonDocs/blob/develop/images/anacondaNavigatorToolList.png
+
 
 [iPython](https://ipython.org/)
 
@@ -74,7 +62,9 @@ Pandas is a fast, powerful, flexible open source data analysis and manipulation 
 
 NumPy is a library for Python that adds support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays. Pandas is a high-level data manipulation tool that is built on the NumPy package. Think of this like the PVC pipe that connects all the different libraries in python? NumPy arrays are very fast compared with native datatypes in python. 
 
-IMAGE https://github.com/heathermortensen/pythonDocs/blob/develop/images/numPy.png
+<img src="images/numPy.png">
+
+
 
 [Pandas versus NumPy](https://ssiddique.info/pandas-vs-numpy-differences.html)
 
@@ -84,7 +74,9 @@ Spyder versus VS Code
 
 Spyder is more geared towards tracing data and might be preferred. Its well suited to JSONs and data frames. 
 
-IMAGE https://github.com/heathermortensen/pythonDocs/blob/develop/images/SpyderDataTracing.png
+<img src="images/SpyderDataTracing.png">
+
+
 
 PyCharm and Visual Studio Code (VS Code) are both very popular and featureful IDEs. However, PyCharm is tailored for Python and you'll have to install other IDEs for other languages. Visual Studio is more modular, it only needs to know what type of project you are working in and it will automatically enable the required plugins. It’s worth noting that PyCharm is very resource-intensive and performs much slower than Visual Studio. Consider PyCharm if you'll be working mainly with Python. Consider Visual Studio if you need to work with multiple languages and want the flexibility to customize your IDE.
 
@@ -266,7 +258,13 @@ https://hackaday.com/2018/01/12/software-design-patterns-for-real-hardware/
 
 Data frames are matrices or tables. DFs are a data type available from inside the pandas package. These were created by [Wes McKinsey](https://www.youtube.com/watch?v=_T8LGqJtuGc) and use their own goofy syntax. Knowing python will not help you with DFs. Useful functions include "slicing" (see G video 1 - min 12) -  `print stringy([:2])` will print all elements from 0 to 1. When using data frames, we would instead write `print(df.iloc[:2])`to print the index locations inside the data frame. [DataFrames: The Good, Bad, and Ugly (20 min)](https://www.youtube.com/watch?v=stlxbC7uIzM)
 
-IMAGE dataFrameExample in Spyder https://github.com/heathermortensen/pythonDocs/blob/develop/images/dataframeExample.png
+
+
+<img src="images/dataframeExample.png">
+
+<figure><img src="dataframeExample.png"><figcaption>A data frame shown inside spyder</figcaption></figure>
+
+
 
 What version control are we using?
 
