@@ -24,6 +24,10 @@ Typora is a simple and configurable document editor that provides excellent [Mar
 ![AnacondaNavigator](https://github.com/heathermortensen/pythonDocs/blob/develop/images/anacondaNavigatorToolList.png)
 ```
 
+```
+![Anaconda Navigator](images/anacondaNavigatorToolList.png)
+```
+
 [iPython](https://ipython.org/)
 
 Support for interactive data visualization inside Jupyter Notebook.
