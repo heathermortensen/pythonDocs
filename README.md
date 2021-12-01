@@ -2,6 +2,27 @@
 
 # Python Notes
 
+GitHub cheat sheets: 
+
+https://gist.github.com/TT--/14260aef6c0e31fca5b37e7cb3c53020
+
+Figures with caption in markdown: 
+
+`<figure><img src="images/myimage.jpg"><figcaption>image caption</figcaption></figure>`
+
+https://github.com/maptime/getting-started-with-git-and-github/blob/master/README.md
+
+```
+git add .
+git commit -am "I have made some changes."
+// git checkout develop
+//git merge --no-ff my-feature-branch
+git push origin develop
+git status
+```
+
+
+
 
 
 ## Table of Contents 
@@ -26,7 +47,7 @@
 
 2. [To Do List](#todo)
 
-   
+   [ ] Testing techniques - what quantitative measures can be collected?
 
 3. [Books](#books)
 
@@ -199,6 +220,20 @@ File paths/file names - min 7, G video 1
 [ ] Look at Testing plans - hardware focused
 
 [ ] Testing techniques - what quantitative measures can be collected?
+
+​		[ ] Tools and measures: https://www.guru99.com/code-coverage.html
+
+​		[ ] MC/DC: https://www.youtube.com/watch?v=DivaWCNohdw
+
+​		[ ] https://www.rapitasystems.com/mcdc-coverage
+
+​		[ ] https://ntrs.nasa.gov/api/citations/20040086014/downloads/20040086014.pdf
+
+​		[ ] https://www.researchgate.net/publication/269168778_An_Automated_Tool_for_MCDC_Test_Data_Generation
+
+​		[ ] NISTS open source MCDC tool & paper: https://www.nist.gov/publications/mcdc-star-150-open-source-mcdc-measurement-tool
+
+​		[ ] paper/tool: https://ieeexplore.ieee.org/document/8563199
 
 [ ] Methods for automated testing/scripting
 
