@@ -233,7 +233,7 @@ File paths/file names - min 7, G video 1
 
 [ ] notes from testing class- located vol 1 - located: C:\Users\Bob Ross\Desktop\St Thomas Classes\SEIS_627_03_Asgn_2_0005-Heather\DOCs. find: vol 2
 
-[x] call recruiter Monday to verify adequate paperwork was received. Background check successful. Labwork stuck.  
+[x] call recruiter Monday to verify adequate paperwork was received. Background check successful. Labwork is stuck.  Labs are overloaded.
 
 [x] push notes to github
 
@@ -269,7 +269,7 @@ File paths/file names - min 7, G video 1
 
 <img src="images/effectivePython.png">
 
-* [Introduction to Programmable Logic Controllers](![image-20211201104610381](C:\Users\Bob Ross\AppData\Roaming\Typora\typora-user-images\image-20211201104610381.png))
+* [Introduction to Programmable Logic Controllers](https://www.google.com/books/edition/Introduction_to_Programmable_Logic_Contr/M4-eAwAAQBAJ?hl=en&gbpv=1&dq=introduction+to+programmable+logic+controllers&printsec=frontcover)
 
 * [The Firmware Handbook](https://www.google.com/books/edition/The_Firmware_Handbook/ERc_AHIyuTsC?hl=en&gbpv=0)
 
