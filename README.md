@@ -47,7 +47,15 @@ git status
 
 2. [To Do List](#todo)
 
-   [ ] Testing techniques - what quantitative measures can be collected?
+   [ ] Install software tools
+
+   [ ] put 3-ring binder of relavent papers together
+
+   [ ] Look at Testing plans - hardware focused
+
+   [ ] Tools/Methods for automated testing/scripting
+
+   [ ] notes from testing class- located vol 1 - located: C:\Users\Bob Ross\Desktop\St Thomas Classes\SEIS_627_03_Asgn_2_0005-Heather\DOCs. **Find: vol 2**
 
 3. [Books](#books)
 
@@ -65,7 +73,7 @@ git status
 
    ​	4c.  Design Patterns for Accessing Hardware
 
-   ​	4d.
+   ​	4d. [Quantitative measures of Test Coverage](#coverage)
 
    
 
@@ -217,35 +225,19 @@ File paths/file names - min 7, G video 1
 
 [ ] Install software tools
 
+[ ] put book of papers together
+
 [ ] Look at Testing plans - hardware focused
-
-[ ] Testing techniques - what quantitative measures can be collected?
-
-​		[ ] Tools and measures: https://www.guru99.com/code-coverage.html
-
-​		[ ] MC/DC: https://www.youtube.com/watch?v=DivaWCNohdw
-
-​		[ ] https://www.rapitasystems.com/mcdc-coverage
-
-​		[ ] https://ntrs.nasa.gov/api/citations/20040086014/downloads/20040086014.pdf
-
-​		[ ] https://www.researchgate.net/publication/269168778_An_Automated_Tool_for_MCDC_Test_Data_Generation
-
-​		[ ] NISTS open source MCDC tool & paper: https://www.nist.gov/publications/mcdc-star-150-open-source-mcdc-measurement-tool
-
-​		[ ] paper/tool: https://ieeexplore.ieee.org/document/8563199
 
 [ ] Methods for automated testing/scripting
 
 [ ] notes from testing class- located vol 1 - located: C:\Users\Bob Ross\Desktop\St Thomas Classes\SEIS_627_03_Asgn_2_0005-Heather\DOCs. find: vol 2
 
-[ ] call half price books -  (763) 784-1500. Not in yet.
-
-[ ] call recruiter Monday to verify adequate paperwork was received. 
+[x] call recruiter Monday to verify adequate paperwork was received. Background check successful. Labwork stuck.  
 
 [x] push notes to github
 
-
+[x] Assemble a little library - call half price books -  picked up python book
 
 
 
@@ -257,25 +249,31 @@ File paths/file names - min 7, G video 1
 
 * **Software Quality Assurance and Evaluation First Printing Edition** by James H. Dobbins. 1990. ISBN-13: 978-0873890595. [Link to amazon](https://www.amazon.com/Software-Quality-Assurance-Evaluation-Dobbins/dp/0873890590)
 
+  <img src="images/testingBooks.png">
+
 #### Python Books
 
-Automate the boring stuff
+* [Automate the boring stuff](https://automatetheboringstuff.com/) by Al Sweigart. Free online.
 
-Python Crash Course (more verbose version of previous book)
+* [Python Crash Course](https://ehmatthes.github.io/pcc/) (more verbose version of previous book)
 
-[Effective Python](https://effectivepython.com/)
+* [Python for Data Analysis](https://www.google.com/books/edition/Python_for_Data_Analysis/UiM3DwAAQBAJ?hl=en&gbpv=1&dq=python+for+data+analysis&printsec=frontcover) 
 
-Learning python
+  <img src="images/pythonCrashCourse.png">
 
-Python for Data Analysis 
+* [Effective Python](https://effectivepython.com/) - I bought the [1st edition](https://effectivepython.com/first-edition) at Half Price, but there is a [2nd edition](https://effectivepython.com/). 
 
-Storytelling for User Experience
+* [Learning python](https://www.google.com/books/edition/Learning_Python/4pgQfXQvekcC?hl=en&gbpv=1&dq=learning+python&printsec=frontcover) by Mark Lutz
 
-Introduction to Programmable Logic Controllers
+* [Storytelling for User Experience](https://rosenfeldmedia.com/books/storytelling-for-user-experience/)
 
-The Firmware Handbook
+<img src="images/effectivePython.png">
 
+* [Introduction to Programmable Logic Controllers](![image-20211201104610381](C:\Users\Bob Ross\AppData\Roaming\Typora\typora-user-images\image-20211201104610381.png))
 
+* [The Firmware Handbook](https://www.google.com/books/edition/The_Firmware_Handbook/ERc_AHIyuTsC?hl=en&gbpv=0)
+
+<img src="images/plcs.png">
 
 ### Online Resources <a name="online"></a>
 
@@ -334,6 +332,24 @@ https://stackoverflow.com/questions/37452703/best-design-pattern-for-switching-b
 https://hackaday.com/2018/01/12/software-design-patterns-for-real-hardware/
 
 
+
+#### Quantitative Measures of Test Coverage <a name="coverage"></a>
+
+What quantitative measures can be collected?
+
+​		[ ] Tools and measures: https://www.guru99.com/code-coverage.html
+
+​		[ ] MC/DC: https://www.youtube.com/watch?v=DivaWCNohdw
+
+​		[ ] https://www.rapitasystems.com/mcdc-coverage
+
+​		[ ] https://ntrs.nasa.gov/api/citations/20040086014/downloads/20040086014.pdf
+
+​		[ ] https://www.researchgate.net/publication/269168778_An_Automated_Tool_for_MCDC_Test_Data_Generation
+
+​		[ ] NISTS open source MCDC tool & paper: https://www.nist.gov/publications/mcdc-star-150-open-source-mcdc-measurement-tool
+
+​		[ ] paper/tool: https://ieeexplore.ieee.org/document/8563199
 
 
 
